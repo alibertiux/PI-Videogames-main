@@ -1,0 +1,53 @@
+.spanDetail{
+    font-family: monospace;
+    font-size:large;
+    color: white;
+    /* display: flex; */
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  /* align-items: stretch; */
+  /* justify-content: space-evenly; */
+
+}
+.spanDetailGenre{
+    font-family: monospace; 
+    font-size: medium;
+    color: white;
+    padding: 0 20px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.titleDetail{
+    text-align: left; 
+    font-family: monospace; 
+    font-size: 30px; 
+    COLOR: #1278BF; 
+    text-shadow: 0px 0px 9px #508AD3;
+    
+}
+.imagen{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 50%;
+    opacity: 0.8;
+}
+.btnDetail{
+    appearance: initial;
+    
+    font-style:normal;
+    font-size: large;
+    font-family: monospace;
+    color:grey;
+    word-spacing: normal;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    background-color: blue;
+    padding: 5px;
+    border-width: 6px;
+    border-radius: 50px;
+    border-style: outset;
+}

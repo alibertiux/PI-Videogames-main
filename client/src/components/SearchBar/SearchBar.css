@@ -1,0 +1,34 @@
+.input{
+    appearance: initial;
+    
+    font-style:normal;
+    font-size: large;
+    font-family: monospace;
+    color: white;
+    word-spacing: normal;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    background-color: blue;
+    padding: 5px;
+    border-width: 6px;
+    border-radius: 50px;
+    border-style: outset;
+}
+
+
+.btn{
+      appearance: initial;
+    
+      font-style:normal;
+      font-size: large;
+      font-family: monospace;
+      color: white;
+      word-spacing: normal;
+      text-transform: capitalize;
+      box-sizing: border-box;
+      background-color: blue;
+      padding: 5px;
+      border-width: 6px;
+      border-radius: 50px;
+      border-style: outset;
+  }

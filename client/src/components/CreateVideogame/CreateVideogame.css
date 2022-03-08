@@ -1,0 +1,118 @@
+.titleCreate {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  font-family: monospace;
+  font-size: 40px;
+  color: #1278bf;
+  text-shadow: 0px 0px 9px #508ad3;
+}
+
+.title {
+  font-family: monospace;
+  font-size: 20px;
+  color: #1278bf;
+  text-shadow: 0px 0px 9px #508ad3;
+  /* display: flex; */
+}
+
+.inputCreate {
+  font-style: normal;
+  font-weight: 900;
+  font-size: large;
+  font-family: monospace;
+  /* display: flex; */
+  border-width: 6px;
+  border-style: outset;
+}
+
+.selects {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.selects-item {
+  padding-right: 5%;
+  
+}
+
+.formCreate {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+}
+
+.selectCreate {
+  font-style: normal;
+  font-weight: 900;
+  font-size: large;
+  font-family: monospace;
+  display: flex;
+  border-width: 6px;
+  border-style: outset;
+}
+
+.Create {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  appearance: initial;
+}
+
+.btnCreate {
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  appearance: initial;
+  font-style: normal;
+  font-size: large;
+  font-family: monospace;
+  color: white;
+  word-spacing: normal;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  background-color: blue;
+  padding: 10px;
+  border-width: 6px;
+  border-radius: 50px;
+  border-style: outset;
+  
+}
+
+.error {
+  font-family: monospace;
+  color: white;
+  text-align: left;
+}
+
+.selected{
+  color: white;
+  font-size: large;
+  font-family: monospace;
+  
+
+}
+
+ul{
+list-style: none;
+}
+.borrar{
+  color: red;
+  font-size: x-large;
+  font-family: monospace;
+}
+.selectOptions{
+  font-style: normal;
+  font-weight: 900;
+  font-size: large;
+  font-family: monospace;
+  /* display: flex; */
+  border-width: 6px;
+  border-style: outset;
+}

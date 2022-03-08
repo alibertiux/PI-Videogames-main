@@ -1,0 +1,13 @@
+span{
+  font-family: monospace; 
+  font-size: 40px; 
+  COLOR: #1278BF; 
+  text-shadow: 0px 0px 9px #508AD3;
+    text-align: center;
+}
+link{
+    font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}

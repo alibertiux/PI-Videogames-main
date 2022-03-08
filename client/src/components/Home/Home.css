@@ -1,0 +1,31 @@
+.spanHome {
+  text-align: left;
+  font-family: monospace;
+  font-size: 40px;
+  color: #1278bf;
+  text-shadow: 0px 0px 9px #508ad3;
+}
+
+.btnHome {
+  appearance: initial;
+
+  font-style: normal;
+  font-size: large;
+  font-family: monospace;
+  color: white;
+  word-spacing: normal;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  background-color: blue;
+  padding: 5px;
+  border-width: 6px;
+  border-radius: 50px;
+  border-style: outset;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
