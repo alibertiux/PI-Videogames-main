@@ -3,24 +3,109 @@
   display: flex;
 }
 
-.pageNumbers li {
+/* .pageNumbers li {
   margin: 6px;
   padding: 15px;
-  /* border: 1px solid white; */
+  /* border: 1px solid white;
   border-radius: 100px;
   flex-direction: center;
   color: white;
   background-color: blue;
   cursor: pointer;
+} */
+
+.pageNumbers li{
+  appearance: initial;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border-radius: 5em;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'verdana';
+  font-weight: 700;
+}
+.pageNumbers li {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.pageNumbers li:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
-.pageNumbers li.active {
+/* .pageNumbers li.active {
   margin: 6px;
   padding: 15px;
   background-color: #eef4fc;
   color: black;
+} */
+
+.pageNumbers li.active{
+  appearance: initial;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border-radius: 5em;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'verdana';
+  font-weight: 700;
+}
+.pageNumbers li.active {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.pageNumbers li.active:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .pageNumbers li button {
   margin: px;
   padding: auto;
@@ -29,13 +114,13 @@
   color: white;
   font-size: 18px;
   cursor: pointer;
-}
+} */
 
-.pageNumbers li button:hover {
+/* .pageNumbers li button:hover {
   color: rgb(248, 15, 15);
   background-color: blue;
 
-}
+} */
 
 .pageNumbersli button:focus {
   outline: none;
@@ -60,11 +145,10 @@
 
 .input {
   appearance: initial;
-
   font-style: normal;
   font-size: large;
   font-family: monospace;
-  color: blue;
+  color: #3498db;
   word-spacing: normal;
   text-transform: capitalize;
   box-sizing: border-box;
@@ -80,9 +164,7 @@
   display: inline-block;
 }
 
-.btnPagination {
-  appearance: initial;
-
+/* .btnPagination {
   font-style: normal;
   font-size: large;
   font-family: monospace;
@@ -90,35 +172,69 @@
   word-spacing: normal;
   text-transform: capitalize;
   box-sizing: border-box;
-  background-color: blue;
+  background-color: #3498db;
   padding: 5px;
   border-width: 6px;
   border-radius: 50px;
   border-style: outset;
+} */
+
+.btnPagination {
+box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border-radius: 5em;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'verdana';
+    font-weight: 50;
 }
+.btnPagination {
+  border-color: #3498db;
+  color: white;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.btnPagination:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+
 
 .select {
   appearance: initial;
-
   font-style: normal;
   font-size: large;
-  font-family: monospace;
+  font-family: verdana;
   color: white;
   word-spacing: normal;
   text-transform: capitalize;
   box-sizing: border-box;
-  background-color: blue;
+  background-color: #3498db;
   padding: 5px;
-  border-width: 6px;
   border-radius: 50px;
   border-style: outset;
 }
 .spanFilter {
   /* text-align: left;  */
-  font-family: monospace;
+  font-family: verdana;
   font-size: 20px;
-  color: #1278bf;
-  text-shadow: 0px 0px 9px #508ad3;
+  color: #3498db;
+  text-shadow: 0px 0px 9px black;
 }
 
 .btns {

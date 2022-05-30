@@ -229,23 +229,23 @@ const handleReset = (e) => {
 
             {videoGames.length > 0 && genres.length > 0 }           
             <div className="numberPagination">
-                <ul className="pageNumbers">
-                    <li> 
+                <div className="pageNumbers">
+                    <div> 
                         <button className='btnPagination' onClick={handlePrevbtn} //
                         disabled={ currentPage === pages[0] ? true : false }//
                         >anterior</button>
-                    </li>                
+                    </div>                
                               
                         {/* {pageDecrementBtn}  */}
                         {renderPageNumbers} {/*}{*/}
                         {/* {pageIncrementBtn}  */}
 
-                    <li>  
+                    <div>  
                         <button className='btnPagination' onClick={handleNextbtn} //
                         disabled={ currentPage === pages[pages.length - 1] ? true : false }//
                         >siguiente</button> 
-                    </li>
-                </ul> 
+                    </div>
+                </div> 
             </div>
 
             <div className="pagination-container">

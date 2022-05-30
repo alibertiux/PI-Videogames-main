@@ -1,9 +1,9 @@
-.input{
+/* .input{
     appearance: initial;
     
     font-style:normal;
     font-size: large;
-    font-family: monospace;
+    font-family: verdana;
     color: white;
     word-spacing: normal;
     text-transform: capitalize;
@@ -13,22 +13,91 @@
     border-width: 6px;
     border-radius: 50px;
     border-style: outset;
+} */
+
+.input{
+    appearance: initial;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border-radius: 5em;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'verdana';
+    font-weight: 700;
 }
+.input {
+    border-color: #3498db;
+    color: white;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
 
 
-.btn{
+/* .btn{
       appearance: initial;
     
       font-style:normal;
       font-size: large;
-      font-family: monospace;
+      font-family: verdana;
       color: white;
       word-spacing: normal;
       text-transform: capitalize;
       box-sizing: border-box;
       background-color: blue;
       padding: 5px;
-      border-width: 6px;
       border-radius: 50px;
       border-style: outset;
+      cursor: pointer;
+  } */
+
+  .btn{
+    appearance: initial;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border-radius: 5em;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'verdana';
+    font-weight: 700;
+  }
+  .btn {
+    border-color: #3498db;
+    color: white;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .btn:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
   }

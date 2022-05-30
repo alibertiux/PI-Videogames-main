@@ -1,3 +1,4 @@
+/* eslint-disable no-array-constructor */
 import axios from "axios";
 
 export const OBTENER_TODOS_VIDEOGAMES = "OBTENER_TODOS_VIDEOGAMES";

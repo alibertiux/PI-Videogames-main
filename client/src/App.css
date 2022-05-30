@@ -50,5 +50,7 @@
 
 #fondo-radial {
   background-position: center center;
-  background: radial-gradient(circle, rgb(5, 5, 128), rgb(0, 0, 12));
+  background: radial-gradient(circle, #202020);
+  padding: 25px;
+  
 }

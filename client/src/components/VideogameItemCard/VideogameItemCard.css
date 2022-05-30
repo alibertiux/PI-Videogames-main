@@ -12,19 +12,30 @@
 
 img {
   width: fit-content;
-  border-radius: 10%;
+  border-radius:10rem
 }
 
 .card .text {
-  font-family: monospace;
+  font-family: Verdana;
   font-size: x-large;
-  color: white;
+  color: #FF00FF;
   padding: 0 20px 0px;
 }
+
+p{
+  font-family: Verdana;
+  color:#4169E1;
+  padding: 0 10px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
 .text-genre {
-  font-family: monospace;
+  font-family: verdana;
   font-size: x-large;
-  color: white;
+  color: #FF00FF;
   padding: 0 10px 10px;
   display: flex;
   flex-direction: row;

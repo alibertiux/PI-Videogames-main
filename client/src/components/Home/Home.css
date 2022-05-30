@@ -2,25 +2,63 @@
   text-align: left;
   font-family: monospace;
   font-size: 40px;
-  color: #1278bf;
-  text-shadow: 0px 0px 9px #508ad3;
+  color: #3498db;
+  text-shadow: 0px 0px 9px black;
 }
 
-.btnHome {
-  appearance: initial;
-
+/* .btnHome {
   font-style: normal;
   font-size: large;
-  font-family: monospace;
+  font-family: verdana;
   color: white;
   word-spacing: normal;
   text-transform: capitalize;
   box-sizing: border-box;
   background-color: blue;
   padding: 5px;
-  border-width: 6px;
   border-radius: 50px;
   border-style: outset;
+  cursor: pointer;
+} */
+
+
+
+.btnHome{
+  appearance: initial;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border-radius: 5em;
+
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'verdana';
+  font-weight: 700;
+}
+.btnHome {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.btnHome:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
 .navigation {
